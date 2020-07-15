@@ -23,7 +23,13 @@ class Artist
     end
   end
 
-  def print_songs
+  def self.find(name)
+    @@all.find do |artist|
+      artist.name == name
+    end
+  end
+
+  def print_songs()
 
   end
 end
