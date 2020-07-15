@@ -20,6 +20,7 @@ class Artist
       self.find(name)
     else
       self.create(name)
+    end
   end
 
   def print_songs
