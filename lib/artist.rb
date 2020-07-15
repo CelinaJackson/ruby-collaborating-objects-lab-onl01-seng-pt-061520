@@ -6,7 +6,7 @@ class Artist
     @name = name
   end
 
-  def self.all 
+  def self.all
     @@all
 
   end
@@ -22,5 +22,5 @@ class Artist
 
   def print_songs
 
-  end  
+  end
 end
