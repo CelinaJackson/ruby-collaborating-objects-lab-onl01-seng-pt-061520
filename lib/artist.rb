@@ -18,4 +18,8 @@ class Artist
     song = song.new(name)
     add_song(song)
   end
+
+  def print_songs
+
+  end  
 end
