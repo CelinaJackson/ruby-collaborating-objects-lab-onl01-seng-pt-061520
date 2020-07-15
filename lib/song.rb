@@ -13,7 +13,7 @@ class Song
     song = self.new
     song.name = filename.split("-")[1]
     song
-  end 
+  end
 
 
 
