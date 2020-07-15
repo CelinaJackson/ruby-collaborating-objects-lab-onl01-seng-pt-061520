@@ -29,6 +29,12 @@ class Artist
     end
   end
 
+  def self.create(name)
+    artist = self.new(name)
+    @@all << artist
+    artist
+  end
+
   def print_songs()
 
   end
